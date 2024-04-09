@@ -1,7 +1,9 @@
 # botgerador.py
 
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
+
 from functools import wraps
 from datetime import datetime, timedelta
 
